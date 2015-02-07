@@ -44,7 +44,6 @@ a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    text-decoration: underline;
 }
 
 a:hover,
@@ -64,19 +63,19 @@ a:focus {
 }
 
 .navbar-brand {
-    height: 40px;
-    padding: 10px 15px;
-    line-height: 1em;
+    font-weight: 700;
+}
+.navbar-brand {
+  height: 40px;
+  padding: 5px 15px;
+  font-size: 18px;
+  line-height: 1em;
 }
 
-.navbar-brand:focus {
-    outline: 0;
-}
-
-#neutrinet-logo {
-    margin-top: 2px;	
-    height: 26px;
-    max-width: 100px;
+.navbar-brand h1{
+    color: #fff;
+  font-size: 20px;
+  line-height: 40px;
 }
 
 .nav.navbar-nav {
@@ -87,10 +86,6 @@ a:focus {
     background-color: rgba(0,0,0,0);
 }
 
-/* Dynamic SVG CSS styling is so hot */
-.navbar-custom.top-nav-collapse #Layer_1 {
-    fill: #333;
-}
 
 .navbar-custom ul.nav li a {
     font-size: 0.86em;
@@ -143,7 +138,13 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
-    background-color: rgba(200,200,200,.2);
+    background-color: rgba(255,255,255,.2);
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+    outline: 0;
+    background-color: rgba(255,255,255,.2);
 }
 
 .navbar-toggle {
@@ -377,7 +378,7 @@ section.bigfat {
 ============================ */
 
 .intro {
-    background: url(../img/cats.jpg) no-repeat top center;
+    background: url(../img/server.jpg) no-repeat top center;
     background-size: cover;
 }
 
